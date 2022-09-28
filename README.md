@@ -6,7 +6,7 @@
 
 # About this project
 
-The aim of this repository is to adjudicate between helpful and unhelpful movie reviews from the IMDB database. To perform this classification task, Natural Language Processing (NLP) tools were used to transform reviews' text to numeric features. Then, different machine learning classifiers and deep learning models were trained and optimised to achieve the highest F1 score in the validation set. Lastly, the choosen model was retrain to the compbined dataset and used to classify the test data.  
+The aim of this repository is to adjudicate between helpful and unhelpful movie reviews from the IMDB database. To perform this classification task, Natural Language Processing (NLP) tools were used to transform reviews' text to numeric features. Then, different machine learning classifiers and deep learning models were trained and optimised to achieve the highest F1 score in the validation set. Lastly, the chosen model was retrained on the combined dataset and used to classify the test data. 
 
 # Dataset
 
@@ -40,14 +40,14 @@ The training data contains 10,755 labelled reviews. The test data contains 5,071
 
 # Results
 
-The approach of the project was to initiate and train an unoptimised model and then perform hyperparamenter tuning to choose the optimised parameters. The models were validated into the validation set and also in training to inspect potential bias to the trained models.
+The approach of the project was to initiate and train an unoptimised model and then perform hyperparameter tuning to choose the optimised parameters. The models were validated in the validation set and also in training to inspect potential bias in the trained models. 
 The results for the machine learning models can be seen here:
 
 <p align="center">
   <img src="Graphs/ml_results.png" width=65% height=65%> 
 </p>
 
-Then the same approache was followed for the neural networks providing the following results:
+Then the same approach was followed for the neural networks, providing the following results:
 
 <p align="center">
   <img src="Graphs/dl_results.png" width=65% height=65%> 
