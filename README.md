@@ -1,4 +1,8 @@
-# Imdb helpful reviews detection
+<p align="center">
+  <img src="IMDBs.jpg" width="900" height="500">
+</p>
+
+# Detection of helpful reviews on IMDB 
 
 # About this project
 
@@ -39,11 +43,15 @@ The training data contains 10,755 labelled reviews. The test data contains 5,071
 The approach of the project was to initiate and train an unoptimised model and then perform hyperparamenter tuning to choose the optimised parameters. The models were validated into the validation set and also in training to inspect potential bias to the trained models.
 The results for the machine learning models can be seen here:
 
-/ first table
+<p align="center">
+  <img src="Graphs/ml_results.png" width=65% height=65%> 
+</p>
 
 Then the same approache was followed for the neural networks providing the following results:
 
-/ second table
+<p align="center">
+  <img src="Graphs/dl_results.png" width=65% height=65%> 
+</p>
 
 Based on the final Training and Validation accuracies and F1 scores, the **Multinomial Naive Bayes** has been chosen with the CountVectorization embedding for the following reason:
 - The Deep Learning models showed strange training, despite the different structures and inputs of the networks - the metrics have been very similar and training very flat. 
